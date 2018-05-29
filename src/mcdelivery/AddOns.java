@@ -535,6 +535,7 @@ public class AddOns extends javax.swing.JDialog {
 
     private void btnNodrinkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNodrinkActionPerformed
         isDrink = false;
+        chooseDrink("None","0");
     }//GEN-LAST:event_btnNodrinkActionPerformed
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
@@ -548,6 +549,7 @@ public class AddOns extends javax.swing.JDialog {
 
     private void btnNofriesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNofriesActionPerformed
         isFries = false;
+     chooseFries("None","0");
     }//GEN-LAST:event_btnNofriesActionPerformed
 
     private void btnSmallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSmallActionPerformed
