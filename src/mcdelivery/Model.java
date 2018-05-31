@@ -115,11 +115,11 @@ public class Model {
         return finalPrice;
     }
     void remove(int selectedIndex) {
-        
-        orders[selectedIndex].setPrice(0);
-        orders[selectedIndex].setProduct("");
-        orders[selectedIndex].setQuantity(0);
-        orders[selectedIndex].setBasePrice(0);
+        Order o = orders[selectedIndex];
+        o.setPrice(0);
+        o.setProduct("");
+        o.setQuantity(0);
+        o.setBasePrice(0);
         for(int n = selectedIndex; n<orderCount;n++){
             orders[n] = orders[n+1];
         }
